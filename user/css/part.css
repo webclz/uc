@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+/*author@Juren*/
+.table_person_info {
+    height: auto;
+    line-height: 30px;
+}
+
+.table_person_info input[type="text"], .table_person_info input[type="password"] {
+    width: 220px;
+}
+
+/*登录页*/
+#ad_logo {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+#logo_box {
+    width: 48%;
+    height: 300px;
+    float: right;
+}
+
+#logo_box table {
+    margin: 0 auto;
+}
+
+#logo_box table tr {
+    line-height: 40px;
+    height: 30px;
+}
+
+#logo_box table tr td input[type="text"], #logo_box table tr td input[type="password"] {
+    width: 200px;
+}
+
+#logo_box table tr td input[type="submit"] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #09c;
+    font-size: 16px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.login_select {
+    width: 288px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#user_enter, #ib_enter {
+    width: 142px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background: #eee;
+    text-align: center;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#user_enter {
+    border: 1px solid #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#ib_enter {
+    border: 1px solid #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.enter_active {
+    border: 1px solid #ccc !important;
+    background: #09c !important;
+    color: #fff !important;
+}
+
+/*交易信息*/
+.trading_table, .trading_table td {
+    border-style: solid;
+    border-color: #ccc;
+}
+
+.trading_table {
+    border-width: 1px 0px 0px 1px;
+    width: 100%;
+}
+
+.trading_table td {
+    border-width: 0px 1px 1px 0px;
+    height: 40px;
+    padding: 0px 5px 0px 5px;
+}
+
+/*积分商城*/
+.mall_bread {
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+.mall_bread a:hover {
+    text-decoration: underline;
+}
+
+.mall_chose {
+    width: 99%;
+    height: auto;
+    background: #E9F9FE;
+    float: left;
+    padding: 5px;
+}
+
+.mall_chose ul li {
+    float: left;
+    padding-right: 10px;
+}
+
+.mall_chose ul li a {
+    color: #999;
+}
+
+.mall_chose a {
+    padding: 2px 5px 2px 5px;
+}
+
+.mall_chose a:hover, .mall_chose_active a {
+    background: #09c;
+    color: #fff !important;
+}
+
+.mall_commodity {
+    width: 170px;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+}
+
+.mall_commodity_pic {
+    width: 170px;
+    height: 180px;
+    float: left;
+    overflow: hidden;
+}
+
+.mall_commodity_pic img {
+    max-height: 180px;
+    max-width: 170px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+.mall_commodity_info {
+    width: 170px;
+    height: 40px;
+    float: left;
+}
+
+.mall_commodity_info p {
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.mall_commodity_info span {
+    float: left;
+    line-height: 30px;
+    font-weight: bold;
+    color: #900;
+}
+
+.mall_commodity_info button {
+    float: right;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
